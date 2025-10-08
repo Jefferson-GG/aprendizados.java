@@ -1,0 +1,21 @@
+package Teste1;
+
+public class calculoABC {
+	
+	public static void main(String[] args) {
+		
+		int a = 20;
+		int b = 20;
+		int c = 40;
+		
+		int resultado = a + b;
+		
+		if (resultado >= c) {
+			System.out.println("A e B é igual = "+ resultado +", que é maior ou igual que C = " + c);
+
+		}else {
+			System.out.println("Os valores de A e B é igual = " + resultado +", que são menores que C = " + c);
+		}
+	}
+
+}
